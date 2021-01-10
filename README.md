@@ -34,7 +34,7 @@ public class DocumentCollectionManagerProducer {
 ```
 ### Project Setup
 ```
-git clone project
+git clone https://github.com/perceivechuchu/college-register.git
 cd college-register
 mvn clean install
 mvn liberty:run
