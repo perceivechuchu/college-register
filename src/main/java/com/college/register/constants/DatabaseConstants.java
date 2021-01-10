@@ -16,7 +16,7 @@ public class DatabaseConstants {
 	public static final String MONGODB_AUTHENTICATION_MECHANISM_KEY = "mongodb.authentication.mechanism"; 
 	public static final String MONGODB_AUTHENTICATION_SOURCE_KEY = "mongodb.authentication.source"; 
 	
-	public static final String MONGODB_HOST = "localhost:27017"; 
+	public static final String MONGODB_HOST = "dbhost:27017"; 
 	public static final String MONGODB_USERNAME = "dbusername"; 
 	public static final String MONGODB_PASSWORD = "dbpassword"; 
 	public static final String MONGODB_AUTHENTICATION_MECHANISM_VALUE = "SCRAM-SHA-1";
