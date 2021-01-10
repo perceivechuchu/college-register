@@ -1,0 +1,16 @@
+<server description="Intro REST Guide Liberty server">
+  <!-- tag::featureManager[] -->
+  <featureManager>
+      <feature>microProfile-3.2</feature>
+  </featureManager>
+  <!-- end::featureManager[] -->
+
+  <!-- tag::httpEndpoint[] -->
+  <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
+                id="defaultHttpEndpoint" host="*" />
+  <!-- end::httpEndpoint[] -->
+  
+  <!-- tag::webApplication[] -->
+  <webApplication location="college-register.war" contextRoot="${app.context.root}"/>
+  <!-- end::webApplication[] -->
+</server>

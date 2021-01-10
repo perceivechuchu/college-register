@@ -9,3 +9,12 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+.metadata
+.dbeaver
+.apt_generated_tests
+.apt_generated
+.factorypath
+.classpath
+.project
+.settings
