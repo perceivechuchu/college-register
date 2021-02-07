@@ -24,6 +24,9 @@ public class Student {
 
 	@Column("studentNumber")
 	private String studentNumber;
+	
+	@Column("address")
+	private String address;
 
 	public ObjectId getId() {
 		return id;
@@ -55,5 +58,13 @@ public class Student {
 
 	public void setStudentNumber(String studentNumber) {
 		this.studentNumber = studentNumber;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 }

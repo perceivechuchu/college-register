@@ -1,21 +1,18 @@
 package com.college.register.dto;
 
-import jakarta.nosql.mapping.Column;
-
 /**
  * @author Perceive Chuchu
  *
  */
 public class StudentDto {
 
-	@Column("firstName")
 	private String firstName;
 
-	@Column("lastName")
 	private String lastName;
 
-	@Column("studentNumber")
 	private String studentNumber;
+	
+	private AddressDto address;
 
 	public String getFirstName() {
 		return firstName;
@@ -39,5 +36,13 @@ public class StudentDto {
 
 	public void setStudentNumber(String studentNumber) {
 		this.studentNumber = studentNumber;
+	}
+
+	public AddressDto getAddress() {
+		return address;
+	}
+
+	public void setAddress(AddressDto address) {
+		this.address = address;
 	}
 }
